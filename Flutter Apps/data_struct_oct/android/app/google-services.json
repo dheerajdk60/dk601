@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "398252649524",
+    "firebase_url": "https://datastructoct.firebaseio.com",
+    "project_id": "datastructoct",
+    "storage_bucket": "datastructoct.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:398252649524:android:70cfe6e3e9997649c4ee61",
+        "android_client_info": {
+          "package_name": "com.example.data_struct_oct"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "398252649524-9fnj3e2l14g0ps414qkl7iap0qurpnq7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhSNZBUjswfuRdKI1y5OqhhuUYu18K5d8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "398252649524-9fnj3e2l14g0ps414qkl7iap0qurpnq7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

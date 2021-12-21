@@ -1,0 +1,37 @@
+import 'dart:async';
+
+import 'package:flutter/material.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
+
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+
+  runApp(MaterialApp(title: 'Firestore Example', home: App()));
+}
+
+class App extends StatefulWidget {
+  @override
+  _AppState createState() => _AppState();
+}
+
+class _AppState extends State<App> {
+  final firestoreInstance = Firestore.instance;
+  int a = 50;
+  String name = "dheeraj";
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      child: RaisedButton(
+        child: Text("press"),
+        color: Colors.black,
+        onPressed: () {
+          firestoreInstance.collection("class").add({
+            "name": name,
+            "number": a,
+          });
+        },
+      ),
+    );
+  }
+}
